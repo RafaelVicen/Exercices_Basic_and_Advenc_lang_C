@@ -3,6 +3,7 @@
 
 #include<stdio.h>
 #include<stdlib.h>
+
 	int main(){
 		char a;
 			printf("Digite a primeira letra do teu nome:");
