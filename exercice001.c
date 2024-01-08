@@ -1,4 +1,3 @@
-
 //1. Cria um programa pra ler e escrever a primeira letra do teu Nome.
 
 #include<stdio.h>
