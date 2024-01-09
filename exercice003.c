@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 /*
-	3.efectua a soma dos numeros 5 e 10 e imprimir o resultado na tela.
+efectua a soma dos numeros 5 e 10 e imprimir o resultado na tela.
 */
 
 	int main()
@@ -11,7 +11,7 @@
 		
 			a = 5;
 		
-			b = 10;
+			b = 10;s
 		
 			c= a + b;
 		
