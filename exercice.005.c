@@ -3,19 +3,23 @@
 	
 	int main(){
 		
-		int a, b, c;
+	/*
+		5. Efectuar a multiplicação de dois numeros digitados pelo usuario e imprimir o resultado na tela.
+	*/
 		
-			printf("Digite um numero: ");
-			
-				scanf("%d", &a);
-				
-			printf("Digite o segundo numero: ");
-			
-				scanf("%d", &b);
+	int a, b, c;
 		
-				c = a * b;
-				
-			printf("O valor da multiplicacao eh %d ", c);
+		printf("Digite um numero: ");
 			
-		return 0;
+			scanf("%d", &a);
+				
+		printf("Digite o segundo numero: ");
+			
+			scanf("%d", &b);
+		
+			c = a * b;
+				
+		printf("O valor da multiplicacao eh %d ", c);
+			
+	return 0;
 	}
