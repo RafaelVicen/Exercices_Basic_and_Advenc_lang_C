@@ -11,7 +11,7 @@ efectua a soma dos numeros 5 e 10 e imprimir o resultado na tela.
 		
 			a = 5;
 		
-			b = 10;s
+			b = 10;
 		
 			c= a + b;
 		
