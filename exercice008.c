@@ -13,8 +13,8 @@ int main(){
 
 	      scanf("%f",&n2);
 
-              result= n1 / n2;
+              result= (n1 +  n2)/2;
 
-	 printf("A sua media final eh de %2f", result);
+	 printf("A sua media final eh de %.2f", result);
  return 0;
 }
