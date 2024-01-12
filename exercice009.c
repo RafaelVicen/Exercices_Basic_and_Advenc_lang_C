@@ -8,7 +8,7 @@
 
 	  float  h, l, a, c;
 
-	 printf("Digite a altura");
+	 printf("Digite a altura: ");
 	      scanf("%f", &h);
 
 	printf("Digite a largura: ");
