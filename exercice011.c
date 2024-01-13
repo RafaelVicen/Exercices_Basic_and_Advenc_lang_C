@@ -1,11 +1,16 @@
 #include<stdio.h>
+/*
+ Converte uma quantidade de horas digitadas pelo usuario em minutos
+ se o usuario degitar 1h o resultado tem q sair em minutos exe: 60
+
+ */
 int main(){
-	int a,b;
-	printf("Digite uma quantidade em horas: ");
-	scanf("%d",&a);
+	int horas,minutos;
+	printf("Digite uma quantidade de horas: ");
+	scanf("%d",&horas);
 
-	b = a * 60;
+	minutos = horas * 60;
 
-	printf("%dhoras equvale a %d minutos.",a,b);
+	printf("%d horas equvale a %d minutos.",horas,minutos);
 return 0;
 }
