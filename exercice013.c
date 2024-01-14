@@ -22,7 +22,7 @@ int main(){
 
 	pesoIdeal = (72.7 * altura) - 58;
 
-	printf(" %2.f", pesoIdeal);
+	printf("O peso ideal eh:  %2.f", pesoIdeal);
 
 return 0;
 }
