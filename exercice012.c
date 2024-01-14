@@ -13,14 +13,14 @@
 int main(){
 	float c, f;
 
-
+	
 	printf("Digite uma temperatura em graus Celsiu: ");
 	scanf("%f", &c);
 
 
 	f = (9 * c + 160) / 5;
 
-	printf("Em fahrenhei da %.2f ",  f);
+	printf("Em fahrenhei da: %.2f ",  f);
 
 return 0;
 }
