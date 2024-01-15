@@ -7,15 +7,13 @@
 
 	int main()
 	{
-		int a, b, c;
+		int a;
+
+		a = 5;
+
+		a+=10;
 		
-			a = 5;
-		
-			b = 10;
-		
-			c= a + b;
-		
-		printf("valor da soma: %d", c);
+		printf("valor da soma: %d", a);
 		
 		
 	}
