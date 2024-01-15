@@ -7,14 +7,14 @@
 
 int main(){
 
-int n, s;
+int n;
     printf("Digite um numero: ");
 
 	scanf("%d",&n);
 
-	s=n + 1;
+	n++;;
 
-    printf("o sucessor de %d eh %d",n,s);
+    printf("o sucessor  eh %d",n);
 return 0;
 
 

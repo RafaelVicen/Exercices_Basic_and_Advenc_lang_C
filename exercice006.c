@@ -5,15 +5,15 @@
  */
 int main()
 {
-    int n, a;
+    int n;
 	
 	printf("Digite um numero: ");
 			
 	    scanf("%d", &n);
 
-	    a=n-1
-				;
-	printf("O antecessor de %d eh %d",n,a);
+	    n --;
+				
+	printf("O antecessor eh = %d",n);
 
     return 0;
 	
