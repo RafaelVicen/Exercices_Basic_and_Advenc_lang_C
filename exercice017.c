@@ -17,7 +17,12 @@
 
 #include<stdio.h>
 
-int main (){
+#define texto "Resultado na tela"
+
+int main ()
+{
+
+	
 
 	float tempo,velocidade,distancia,velocidade_media,litros;
 	printf("Digite o tempo: ");
@@ -26,15 +31,19 @@ int main (){
 	printf("Digite a velocidade: ");
 	scanf("%f",&velocidade);
 
+	printf("--------------------------------------");
+	printf("%s", texto);
+	printf("--------------------------------------\n");		
+
 	distancia = tempo * velocidade;
 	velocidade_media = distancia / tempo;
 	litros = distancia / 15.0f;
 
 
-	printf("distancia: %f ",distancia);
-	printf("velocidade_media:%f ",velocidade_media);
-	printf("tempo: %f ",tempo);
-	printf("litros: %f ", litros);
+	printf("\tdistancia percorrida: %.2f \n",distancia);
+	printf("\tvelocidade_media:%.2f \n",velocidade_media);
+	printf("\ttempo: %.2f \n",tempo);
+	printf("\tlitros gastos: %.2f ", litros);
 
 
 
