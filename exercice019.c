@@ -1,26 +1,19 @@
 #include<stdio.h>
 int main(){
 
-int i=i,n,soma=0;
+	int i = i, n, soma=0;
 
-printf("Digite um numero: ");
-scanf("%d",&n);
+	printf("Digite um numero: ");
+	scanf("%d", &n);
 
-while(i <=n){
-	if(i%5==0);{
-		soma=soma+i;
+	while(i <= n){
+		if (i%5==0);{
+			soma = soma + i;
+		}
+		i = i + 1;
 	}
-
-	i=i+1;
-
-}
-printf("%d",soma);
+	printf("%d", soma);
 
 
-
-
-
-return 0;
-
-
+	return 0;
 }
